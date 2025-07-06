@@ -1,0 +1,50 @@
+.yellow{
+    color: yellow;
+}
+#greycol{
+    color: gray;
+}
+div h3:nth-child(odd){
+    color: pink;
+}
+div > div > p{
+    color: red;
+}
+.text-box p:nth-of-type(3){
+    color: green;
+}
+/* дз2 */
+/* структура */
+section ul:nth-child(even){
+    color: brown;
+    background-color: aqua;
+}/* структура */
+section ul:nth-child(odd){
+    color: yellow;
+    background-color: black;
+    
+}
+  /* стану */
+section ul:nth-child(even):hover{
+    color: yellow;
+    background-color: black;
+}  /* стану */
+section ul:nth-child(odd):hover{
+    color: brown;
+    background-color: aqua;
+}/* структура */
+section :nth-child(3n){
+    color: rgb(253, 222, 222);
+}/* структура */
+section :nth-child(-n+2) {
+    color: rgb(45, 45, 150);
+}/* структура */
+section>ul :nth-child(3){
+    color: rgb(4, 248, 166);
+}/* стану */
+section>h3:disabled{
+    background-color: rgb(171, 29, 29);
+}/* стану */
+section:checked{
+    background-color: black;
+}
